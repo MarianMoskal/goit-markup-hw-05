@@ -50,8 +50,8 @@
         </div>
 
         <!--Кнопка на синьому фоні-->
-        <div class="hero-button">
-          <a class="hero-button-text" href="">Заказать услугу</a>
+        <div class="hero-button" data-modal-open>
+          <a class="hero-button-text" >Заказать услугу</a>
         </div>
     </section>
 
@@ -419,6 +419,27 @@
       </div>
      
   </footer>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close" data-modal-close>
+        <svg class="close-svg" width="18" height="18">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. S
+        apiente explicabo est veniam quo, magni consequuntur! Atque, similique sed mo
+        stias aliquid repudiandae odit laborum doloribus magni, qu
+        od quia dignissimos, placeat Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Explicabo, numquam. Quos cupiditate eveniet, veritatis 
+        tenetur corrupti consectetur ipsum aliquam repellat sunt dolore corporis do
+        loribus eos obcaecati voluptas consequatur esse possimus nam cum ab, omnis 
+        eum temporibus ea labore? Quo a perferendis impedit temporibus unde volupta
+        tes assumenda dolore alias veniam perspiciatis amet quia, nesciunt tenetur 
+        soluta maxime necessitatibus ex, voluptatibus obcaecati.</p>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 </html>
 
